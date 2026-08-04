@@ -18,14 +18,14 @@ This repository contains the completed, reproducible analysis for the IBM Applie
 
 | Stage | File |
 | --- | --- |
-| SpaceX API collection | [1_Capstone_Djessi_Jorge_Data_Collection.ipynb](1_Capstone_Djessi_Jorge_Data_Collection.ipynb) |
-| Wikipedia web scraping | [2_Capstone_Djessi_Jorge_Webscraping.ipynb](2_Capstone_Djessi_Jorge_Webscraping.ipynb) |
-| Data wrangling and feature engineering | [3_Capstone_Djessi_Jorge_Data_Wrangling.ipynb](3_Capstone_Djessi_Jorge_Data_Wrangling.ipynb) |
-| SQL exploratory analysis | [4_Capstone_Djessi_Jorge_EDA_SQL.ipynb](4_Capstone_Djessi_Jorge_EDA_SQL.ipynb) |
-| Visual exploratory analysis | [5_Capstone_Djessi_Jorge_EDA_Data_Visualization.ipynb](5_Capstone_Djessi_Jorge_EDA_Data_Visualization.ipynb) |
-| Folium launch-site analysis | [6_Capstone_Djessi_Jorge_Launch_Site_Location.ipynb](6_Capstone_Djessi_Jorge_Launch_Site_Location.ipynb) |
-| Machine-learning comparison | [7_Capstone_Djessi_Jorge_Machine_Learning_Prediction.ipynb](7_Capstone_Djessi_Jorge_Machine_Learning_Prediction.ipynb) |
-| Plotly Dash application | [Djessi_Jorge_spacex_dash_app.py](Djessi_Jorge_spacex_dash_app.py) |
+| SpaceX API collection | [01_data_collection_api.ipynb](01_data_collection_api.ipynb) |
+| Wikipedia web scraping | [02_web_scraping.ipynb](02_web_scraping.ipynb) |
+| Data wrangling and feature engineering | [03_data_wrangling.ipynb](03_data_wrangling.ipynb) |
+| SQL exploratory analysis | [04_eda_sql.ipynb](04_eda_sql.ipynb) |
+| Visual exploratory analysis | [05_eda_visualization.ipynb](05_eda_visualization.ipynb) |
+| Folium launch-site analysis | [06_folium_map.ipynb](06_folium_map.ipynb) |
+| Machine-learning comparison | [07_machine_learning.ipynb](07_machine_learning.ipynb) |
+| Plotly Dash application | [spacex_dash_app.py](spacex_dash_app.py) |
 
 ## Data files
 
@@ -48,7 +48,7 @@ jupyter lab
 To start the dashboard:
 
 ```bash
-python Djessi_Jorge_spacex_dash_app.py
+python spacex_dash_app.py
 ```
 
 ## Data provenance
