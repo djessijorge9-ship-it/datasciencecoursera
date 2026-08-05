@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NLP - Emotion Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='mywebscript.js') }}" defer></script>
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="hero" aria-labelledby="page-title">
+        <span class="eyebrow">IBM Watson NLP Project</span>
+        <h1 id="page-title">NLP - Emotion Detection</h1>
+        <p>Analyse a sentence to identify anger, disgust, fear, joy, sadness, and the dominant emotion.</p>
+      </section>
+
+      <section class="analysis-card" aria-label="Emotion analyser">
+        <label for="textToAnalyze">Please enter the text to be analysed</label>
+        <textarea
+          id="textToAnalyze"
+          rows="5"
+          placeholder="Example: I think I am having fun"
+        ></textarea>
+        <button id="run-analysis" type="button" onclick="RunSentimentAnalysis()">
+          Run Emotion Detection
+        </button>
+
+        <div class="result-panel" aria-live="polite">
+          <span class="result-label">Result of Emotion Detection</span>
+          <div id="system_response">Your analysis will appear here.</div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
