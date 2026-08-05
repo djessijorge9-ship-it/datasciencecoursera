@@ -1,0 +1,15 @@
+test_anger (test_emotion_detection.TestEmotionDetector.test_anger)
+The mad statement should be classified as anger. ... ok
+test_disgust (test_emotion_detection.TestEmotionDetector.test_disgust)
+The disgusted statement should be classified as disgust. ... ok
+test_fear (test_emotion_detection.TestEmotionDetector.test_fear)
+The afraid statement should be classified as fear. ... ok
+test_joy (test_emotion_detection.TestEmotionDetector.test_joy)
+The glad statement should be classified as joy. ... ok
+test_sadness (test_emotion_detection.TestEmotionDetector.test_sadness)
+The sad statement should be classified as sadness. ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK
